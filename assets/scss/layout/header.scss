@@ -1,0 +1,26 @@
+.navbarblog{
+    display: flex;
+    height: 96px;
+    background-color: #121619;
+
+    &__logo{
+        width: 78px;
+        height: 46px;
+        align-items: center;
+        margin-bottom: 24px;
+    }
+}
+.navbar-collapse{
+    justify-content: end;
+
+&__item{
+    color: #ffffff;
+           
+}
+    
+}
+.active{
+  color: #DE8684;
+  display: block;
+  
+}

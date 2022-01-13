@@ -1,0 +1,49 @@
+.hero-section{
+    background-image: url(../img/post-image.jpg);
+    background-repeat:round;
+    width: 100%;
+    height: 702px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+    &__title{
+        color: #ffffff;
+        font-family: Playfair Display;
+        font-size: 70px;
+        font-weight: 900;
+        font-style: italic;
+        padding-top: 225px;
+  }  
+
+    &__icon{
+        color: #ffffff;
+        padding-top: 150px;
+        padding-bottom: 70px;
+}
+
+}
+.content{
+    padding: 80px 104px 80px 100px;
+    text-align: left;
+    letter-spacing: 0.63px;
+
+
+    &__title{
+        font-family: Playfair Display;
+        font-size: 18px;
+        font-weight: 400;
+        padding-bottom: 74px;
+    }
+
+    &__text{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 300;
+        padding-bottom: 20px;   
+    }
+}
+#text-color{
+    color: #D76C69;
+
+}
