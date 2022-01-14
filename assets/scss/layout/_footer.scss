@@ -1,12 +1,16 @@
 .footer{
     height: 206px;
-    background-color: #121619;
+    background-color: $eerie-black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
    
 
 
     &__img{
         width: 122px;
-        height: 122px;
-        margin-top: 42px;    
+      
+        
     }
 }
