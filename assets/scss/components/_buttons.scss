@@ -4,12 +4,6 @@
     flex-direction: row;
     margin-bottom: 85px;
 
-    @media screen and (min-width: 992px) {
-       
-
-      }
-    
-   
 
     &__small{
         margin-right: 12px;
@@ -29,7 +23,4 @@
         -ms-border-radius: 80px;
         -o-border-radius: 80px;
     }
-
-
-
 }

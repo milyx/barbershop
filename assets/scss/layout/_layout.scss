@@ -54,10 +54,10 @@
     font-weight: 400;
     font-family: $medium;
 
-        @media screen and (min-width: 992px) {
-        font-size: $large;
-        font-weight: $light;
-        padding: 74px 20px 74px 20px;
+    @media screen and (min-width: 992px) {
+      font-size: $large;
+      font-weight: $light;
+      padding: 74px 20px 74px 20px;
     }
   }
 
@@ -82,7 +82,7 @@
   justify-content: center;
   align-items: center;
   padding: 62px;
-  
+
   &__img--border {
     width: 180px;
     height: 177px;
