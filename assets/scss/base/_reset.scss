@@ -1,14 +1,9 @@
 * {
-  margin: 0;
+  	margin: 0;
 	padding: 0;
 	list-style: none;
 	text-decoration: none;
 	border: none;
 	outline: none;
+	box-sizing: border-box;
   }
-.navbar-dark .navbar-nav .nav-link {
-    color: $white;
-}
-.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
-  color: $fuzzy-wuzzy;
-}

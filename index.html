@@ -21,11 +21,11 @@
 <body>
     <!--int header-->
     <header>
-        <nav class="navbar navbar-dark navbar-expand-sm navbarblog">
+        <nav class="navbar navbar-dark navbar-expand-sm navbarblog py-0">
             <div class="container-fluid bg-black" style="z-index:100">
                 <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="logotipo" class="navbarblog__logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse"  id="navbarNav">
@@ -81,22 +81,22 @@
             ipsa ipsum suscipit temporibus, ut animi, deleniti eius maiores consequuntur vel libero dolore incidunt
             exercitationem? consequatur deleniti
         </p>
-        <p class="content__text">
+        <p class="content__text d-none d-md-block">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, quidem laboriosam magnam alias placeat quo
             ipsa ipsum suscipit temporibus, ut animi, deleniti eius maiores consequuntur vel libero dolore incidunt
         </p>
-        <p class="content__text">
+        <p class="content__text d-none d-md-block">
             Fusce in eros purus. Fusce volutpat nisi purus, ac vehicula ipsum sollicitudin in. Praesent ultrices
-            semper massa, eu pellentesque purus vehicula non. <strong id="text-color">Praesent tincidunt convallis</strong> ipsum, quis convallis metus.
+            semper massa, eu pellentesque purus vehicula nopellentesque purus vehicula non.<a href="#" id="text-color">Praesent tincidunt convallis</a> ipsum, quis convallis metus.
             Vivamus ac gravida lectus, eget ultricies nunc. Interdum et malesuada fames ac ante ipsum primis in
             faucibus. Nullam tristique pulvinar est at tristique. Vestibulum non blandit ex. Suspendisse ipsum justo,
             feugiat eu feugiat et, condimentum sit amet ipsum. Pellentesque eu vulputate dolor. Aliquam pretium arcu nec
             aliquet varius.
         </p>
 
-        <div class="d-grid gap-2 d-md-block">
-            <button class="btn btn-secondary" type="button">Compartir</button>
-            <button class="btn btn-secondary" type="button">Comentar en twitter</button>
+        <div class="d-md-block buttons">
+            <button class="btn btn-secondary buttons__small" type="button">Compartir</button>
+            <button class="btn btn-secondary buttons__medium" type="button">Comentar en twitter</button>
         </div>
     </article>
     <!--end article-->
@@ -109,11 +109,11 @@
                 <img src="assets/img/naomi-thai.png" alt="img-naomi" class="author__img--border">  
             </div>
             <div class="col-lg-2 col-sm-12 text-center">
-                <h3>Nahomi Thaix</h3>
-                <h4>@naothai <br>depelos.com</h4>
+                <h3 class="author__name--style">Nahomi Thai</h3>
+                <a class="author__website--style" href="#">@naothai<br>depelos.com</a>
             </div>
             <div class="col-lg-8 col-sm-12 text-center">
-                <p>
+                <p class="author__paragraph--style d-none d-md-block">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis iste ex commodi saepe, aperiam
                     quidem quos illum sint, eligendi maiores laborum obcaecati, doloremque necessitatibus impedit animi
                     ea mollitia temporibus earum?
@@ -123,14 +123,12 @@
     </section>
     <!--end autor section-->
 
-
-
     <!--init pagination-->
     <section class="pagination">
         <nav aria-label="...">
             <ul class="pagination justify-content-center pagination__list">
                 <li class="page-item disabled pagination__list--item1">
-                    <span class=" pagination__list--border page-link">Anterior</span>
+                    <span class="pagination__list--border page-link">Anterior</span>
                 </li>
                 <li class="page-item pagination__list--item2"><a class="page-link" href="#">1</a></li>
                 <li class="page-item active pagination__list--item3" aria-current="page">
@@ -150,6 +148,7 @@
         <a href="#"><img src="assets/img/logo.png" alt="logotipo" class="footer__img"></a>   
     </footer>
     <!--end footer-->
+   
 
 
     <script src="https://kit.fontawesome.com/f73e1a5c93.js" crossorigin="anonymous"></script>
@@ -158,5 +157,4 @@
         crossorigin="anonymous"></script>
     <script src="assets/js/index.js"></script>
 </body>
-
 </html>
